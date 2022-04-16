@@ -24,7 +24,7 @@ h1 {
 	width: 200px;
 	height: 43px;
 	margin-bottom: 0.5em;
-	background: url('/dotfirst.svg') center center no-repeat;
+	background: url('dotfirst.svg') center center no-repeat;
 	background-size: contain;
 	text-indent: -13000px;
 }
