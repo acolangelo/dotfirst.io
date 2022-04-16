@@ -1,0 +1,84 @@
+html {
+	padding: 1em;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.5;
+	background: #f4f5ef;
+	color: #32403e;
+}
+
+body {
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	color: #3B594B;
+}
+
+h1 {
+	width: 200px;
+	height: 43px;
+	margin-bottom: 0.5em;
+	background: url('/dotfirst.svg') center center no-repeat;
+	background-size: contain;
+	text-indent: -13000px;
+}
+
+h2 {
+	margin: 0 0 0.5em;
+	padding-top: 2em;
+	font-size: 2em;
+	line-height: 1;
+}
+
+h3 {
+	margin: 0 0 0.5em;
+	font-weight: normal;
+	font-size: 1.25em;
+	line-height: 1.25;
+}
+
+h1 a, h2 a, h1 a:hover, h2 a:hover, h1 a:focus, h2 a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+a, a:hover, a:focus {
+	color: #3b594b;
+}
+
+@media (min-width: 24em) {
+	html {
+		padding: 2em;
+	}
+}
+
+@media (min-width: 32em) {
+	html {
+		padding: 4em;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #32403e;
+		color: #dde1d0;
+	}
+	
+	h1, h2, h3 {
+		color: #F4F5EF;
+	}
+	
+	a, a:hover, a:focus {
+		color: #A4BCB1;
+	}
+}
